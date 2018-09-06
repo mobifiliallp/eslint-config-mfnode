@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mfnode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mobifilia Common - ESLint configuration for node apps",
   "main": "index.js",
   "scripts": {},
