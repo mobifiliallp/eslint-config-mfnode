@@ -3,11 +3,12 @@ module.exports = {
     "airbnb-base"
   ],
   "rules": {
-    "no-underscore-dangle": "off",
     "max-len": "off",
     "object-shorthand": "off",
     "prefer-destructuring": "off",
-    "no-param-reassign": "off",
+    "no-param-reassign": ["error", {
+      "props": false
+    }],
     "no-else-return": "off",
     "no-prototype-builtins": "off",
     "no-mixed-operators": [
